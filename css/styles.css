@@ -681,6 +681,39 @@ a {
   color: #1e4268;
 }
 
+.video-card {
+  background: linear-gradient(160deg, rgba(246, 251, 255, 0.97), rgba(236, 245, 255, 0.92));
+  border: 1px solid rgba(140, 178, 219, 0.32);
+  border-radius: var(--radius);
+  padding: 1.4rem;
+  box-shadow: var(--shadow);
+}
+
+.video-embed {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 18px 40px rgba(8, 24, 47, 0.2);
+  border: 1px solid rgba(133, 176, 223, 0.36);
+  background: #0a1730;
+}
+
+.video-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.video-caption {
+  margin-top: 0.9rem;
+  font-weight: 600;
+  color: #1e4268;
+}
+
 .contact-box {
   display: flex;
   justify-content: space-between;
